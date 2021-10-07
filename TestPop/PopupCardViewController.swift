@@ -18,6 +18,10 @@ class PopupCardViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func showCard() {
+        print("Showing Card")
+    }
+    
 
     /*
     // MARK: - Navigation
