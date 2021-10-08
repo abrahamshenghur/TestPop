@@ -13,6 +13,7 @@
 		525E4AAE270E716A00097DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525E4AAD270E716A00097DE9 /* Assets.xcassets */; };
 		525E4AB1270E716A00097DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525E4AAF270E716A00097DE9 /* LaunchScreen.storyboard */; };
 		525E4AB9270E778400097DE9 /* PopupCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AB8270E778400097DE9 /* PopupCardViewController.swift */; };
+		525E4ABB2710C9CD00097DE9 /* PopUpCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4ABA2710C9CD00097DE9 /* PopUpCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		525E4AB0270E716A00097DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525E4AB2270E716A00097DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525E4AB8270E778400097DE9 /* PopupCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupCardViewController.swift; sourceTree = "<group>"; };
+		525E4ABA2710C9CD00097DE9 /* PopUpCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				525E4AA6270E716800097DE9 /* AppDelegate.swift */,
 				525E4AA8270E716800097DE9 /* ViewController.swift */,
 				525E4AB8270E778400097DE9 /* PopupCardViewController.swift */,
+				525E4ABA2710C9CD00097DE9 /* PopUpCollectionViewCell.swift */,
 				525E4AAA270E716800097DE9 /* Main.storyboard */,
 				525E4AAD270E716A00097DE9 /* Assets.xcassets */,
 				525E4AAF270E716A00097DE9 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				525E4AA9270E716800097DE9 /* ViewController.swift in Sources */,
 				525E4AA7270E716800097DE9 /* AppDelegate.swift in Sources */,
 				525E4AB9270E778400097DE9 /* PopupCardViewController.swift in Sources */,
+				525E4ABB2710C9CD00097DE9 /* PopUpCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
