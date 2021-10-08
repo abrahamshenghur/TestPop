@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		179197132710FFF4001C5959 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179197122710FFF4001C5959 /* Model.swift */; };
+		1791971627110676001C5959 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791971527110676001C5959 /* TabBarController.swift */; };
 		525E4AA7270E716800097DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AA6270E716800097DE9 /* AppDelegate.swift */; };
 		525E4AA9270E716800097DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AA8270E716800097DE9 /* ViewController.swift */; };
 		525E4AAC270E716800097DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525E4AAA270E716800097DE9 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		179197122710FFF4001C5959 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1791971527110676001C5959 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		525E4AA3270E716800097DE9 /* TestPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525E4AA6270E716800097DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525E4AA8270E716800097DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				525E4AA8270E716800097DE9 /* ViewController.swift */,
 				525E4AB8270E778400097DE9 /* PopupCardViewController.swift */,
 				179197122710FFF4001C5959 /* Model.swift */,
+				1791971527110676001C5959 /* TabBarController.swift */,
 				525E4AAA270E716800097DE9 /* Main.storyboard */,
 				525E4AAD270E716A00097DE9 /* Assets.xcassets */,
 				525E4AAF270E716A00097DE9 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				525E4AA9270E716800097DE9 /* ViewController.swift in Sources */,
 				525E4AA7270E716800097DE9 /* AppDelegate.swift in Sources */,
 				525E4AB9270E778400097DE9 /* PopupCardViewController.swift in Sources */,
+				1791971627110676001C5959 /* TabBarController.swift in Sources */,
 				179197132710FFF4001C5959 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
