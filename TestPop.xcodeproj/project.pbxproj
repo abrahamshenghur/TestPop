@@ -41,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		179197182711071C001C5959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				179197122710FFF4001C5959 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1791971927110732001C5959 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				525E4AA8270E716800097DE9 /* ViewController.swift */,
+				1791971527110676001C5959 /* TabBarController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1791971A27110741001C5959 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				525E4AB8270E778400097DE9 /* PopupCardViewController.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 		525E4A9A270E716800097DE9 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				525E4AA6270E716800097DE9 /* AppDelegate.swift */,
-				525E4AA8270E716800097DE9 /* ViewController.swift */,
-				525E4AB8270E778400097DE9 /* PopupCardViewController.swift */,
-				179197122710FFF4001C5959 /* Model.swift */,
-				1791971527110676001C5959 /* TabBarController.swift */,
+				1791971A27110741001C5959 /* Custom Views */,
+				1791971927110732001C5959 /* Screens */,
+				179197182711071C001C5959 /* Model */,
 				525E4AAA270E716800097DE9 /* Main.storyboard */,
 				525E4AAD270E716A00097DE9 /* Assets.xcassets */,
 				525E4AAF270E716A00097DE9 /* LaunchScreen.storyboard */,
