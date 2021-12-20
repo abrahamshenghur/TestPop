@@ -14,6 +14,7 @@
 		525E4AAE270E716A00097DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525E4AAD270E716A00097DE9 /* Assets.xcassets */; };
 		525E4AB1270E716A00097DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525E4AAF270E716A00097DE9 /* LaunchScreen.storyboard */; };
 		525E4AB9270E778400097DE9 /* PopupCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AB8270E778400097DE9 /* PopupCardViewController.swift */; };
+		52A611DF277077B000C7B59E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A611DE277077B000C7B59E /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		525E4AB0270E716A00097DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525E4AB2270E716A00097DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525E4AB8270E778400097DE9 /* PopupCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupCardViewController.swift; sourceTree = "<group>"; };
+		52A611DE277077B000C7B59E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1791971A27110741001C5959 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				52A611DE277077B000C7B59E /* CustomButton.swift */,
 				525E4AB8270E778400097DE9 /* PopupCardViewController.swift */,
 			);
 			path = "Custom Views";
@@ -169,6 +172,7 @@
 				525E4AA7270E716800097DE9 /* AppDelegate.swift in Sources */,
 				525E4AB9270E778400097DE9 /* PopupCardViewController.swift in Sources */,
 				179197132710FFF4001C5959 /* Model.swift in Sources */,
+				52A611DF277077B000C7B59E /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
