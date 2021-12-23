@@ -12,6 +12,7 @@
 		177B96A22773EDBB004E7F1A /* VehicleTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96A12773EDBB004E7F1A /* VehicleTitleLabel.swift */; };
 		177B96A72773EDDE004E7F1A /* SearchScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96A62773EDDE004E7F1A /* SearchScreenCell.swift */; };
 		177B96AC2773EEB3004E7F1A /* SavedVehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96AB2773EEB3004E7F1A /* SavedVehiclesVC.swift */; };
+		177B96C82773F874004E7F1A /* ASWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96C72773F874004E7F1A /* ASWebView.swift */; };
 		179197132710FFF4001C5959 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179197122710FFF4001C5959 /* Model.swift */; };
 		525E4AA7270E716800097DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AA6270E716800097DE9 /* AppDelegate.swift */; };
 		525E4AA9270E716800097DE9 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AA8270E716800097DE9 /* SearchVC.swift */; };
@@ -27,6 +28,7 @@
 		177B96A12773EDBB004E7F1A /* VehicleTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTitleLabel.swift; sourceTree = "<group>"; };
 		177B96A62773EDDE004E7F1A /* SearchScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenCell.swift; sourceTree = "<group>"; };
 		177B96AB2773EEB3004E7F1A /* SavedVehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVehiclesVC.swift; sourceTree = "<group>"; };
+		177B96C72773F874004E7F1A /* ASWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASWebView.swift; sourceTree = SOURCE_ROOT; };
 		179197122710FFF4001C5959 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		525E4AA3270E716800097DE9 /* TestPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525E4AA6270E716800097DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		177B96C12773F709004E7F1A /* WebViews */ = {
+			isa = PBXGroup;
+			children = (
+				177B96C72773F874004E7F1A /* ASWebView.swift */,
+			);
+			path = WebViews;
+			sourceTree = "<group>";
+		};
 		179197182711071C001C5959 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,14 +120,15 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		1791971A27110741001C5959 /* Custom Views */ = {
+		1791971A27110741001C5959 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
 				177B969127710BB1004E7F1A /* Buttons */,
 				177B96A02773ED6E004E7F1A /* Labels */,
 				177B96A52773EDC9004E7F1A /* Cells */,
+				177B96C12773F709004E7F1A /* WebViews */,
 			);
-			path = "Custom Views";
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		525E4A9A270E716800097DE9 = {
@@ -141,7 +152,7 @@
 			children = (
 				177B96982773ED0F004E7F1A /* Extensions+Ext.swift */,
 				179197182711071C001C5959 /* Model */,
-				1791971A27110741001C5959 /* Custom Views */,
+				1791971A27110741001C5959 /* CustomViews */,
 				1791971927110732001C5959 /* Screens */,
 				177B96972773ECC4004E7F1A /* Support */,
 				525E4AB2270E716A00097DE9 /* Info.plist */,
@@ -225,6 +236,7 @@
 				177B969A2773ED2F004E7F1A /* UIButton+Ext.swift in Sources */,
 				177B96A22773EDBB004E7F1A /* VehicleTitleLabel.swift in Sources */,
 				179197132710FFF4001C5959 /* Model.swift in Sources */,
+				177B96C82773F874004E7F1A /* ASWebView.swift in Sources */,
 				52A611DF277077B000C7B59E /* CustomButton.swift in Sources */,
 				177B96AC2773EEB3004E7F1A /* SavedVehiclesVC.swift in Sources */,
 				177B969E2773ED38004E7F1A /* Constants.swift in Sources */,
