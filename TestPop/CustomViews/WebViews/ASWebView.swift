@@ -37,10 +37,6 @@ class ASWebView: WKWebView, UIGestureRecognizerDelegate {
         let request = URLRequest(url: url)
         self.load(request)
     }
-    
-    // Adding some lines
-    // Adding some lines
-    // Adding some lines
-    // Adding some lines
+
 
 }
