@@ -37,4 +37,6 @@ class ASWebView: WKWebView, UIGestureRecognizerDelegate {
         let request = URLRequest(url: url)
         self.load(request)
     }
+    
+    // using guard statement to unwrap url
 }
