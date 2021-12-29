@@ -13,7 +13,7 @@
 		177B96A72773EDDE004E7F1A /* SearchScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96A62773EDDE004E7F1A /* SearchScreenCell.swift */; };
 		177B96AC2773EEB3004E7F1A /* SavedVehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96AB2773EEB3004E7F1A /* SavedVehiclesVC.swift */; };
 		177B96C82773F874004E7F1A /* ASWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96C72773F874004E7F1A /* ASWebView.swift */; };
-		177B96D92774FD50004E7F1A /* Develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96D82774FD50004E7F1A /* Develop.swift */; };
+		177B96D52774FCE3004E7F1A /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B96D42774FCE3004E7F1A /* Master.swift */; };
 		179197132710FFF4001C5959 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179197122710FFF4001C5959 /* Model.swift */; };
 		525E4AA7270E716800097DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AA6270E716800097DE9 /* AppDelegate.swift */; };
 		525E4AA9270E716800097DE9 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E4AA8270E716800097DE9 /* SearchVC.swift */; };
@@ -30,7 +30,7 @@
 		177B96A62773EDDE004E7F1A /* SearchScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenCell.swift; sourceTree = "<group>"; };
 		177B96AB2773EEB3004E7F1A /* SavedVehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVehiclesVC.swift; sourceTree = "<group>"; };
 		177B96C72773F874004E7F1A /* ASWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASWebView.swift; sourceTree = "<group>"; };
-		177B96D82774FD50004E7F1A /* Develop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Develop.swift; path = CustomViews/WebViews/Develop.swift; sourceTree = "<group>"; };
+		177B96D42774FCE3004E7F1A /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Master.swift; path = CustomViews/WebViews/Master.swift; sourceTree = "<group>"; };
 		179197122710FFF4001C5959 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		525E4AA3270E716800097DE9 /* TestPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525E4AA6270E716800097DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		525E4AA5270E716800097DE9 /* TestPop */ = {
 			isa = PBXGroup;
 			children = (
-				177B96D82774FD50004E7F1A /* Develop.swift */,
+				177B96D42774FCE3004E7F1A /* Master.swift */,
 				177B96982773ED0F004E7F1A /* Extensions+Ext.swift */,
 				179197182711071C001C5959 /* Model */,
 				1791971A27110741001C5959 /* CustomViews */,
@@ -238,6 +238,7 @@
 				525E4AA9270E716800097DE9 /* SearchVC.swift in Sources */,
 				525E4AA7270E716800097DE9 /* AppDelegate.swift in Sources */,
 				177B969A2773ED2F004E7F1A /* UIButton+Ext.swift in Sources */,
+				177B96D52774FCE3004E7F1A /* Master.swift in Sources */,
 				177B96A22773EDBB004E7F1A /* VehicleTitleLabel.swift in Sources */,
 				179197132710FFF4001C5959 /* Model.swift in Sources */,
 				177B96C82773F874004E7F1A /* ASWebView.swift in Sources */,
