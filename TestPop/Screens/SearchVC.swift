@@ -21,5 +21,7 @@ class SearchVC: UIViewController {
 
     // WHen webviews are shown in popup, if they are still loading, then overlay a spinner view
     // Make bottom of webview thumbnails have a shadow effect
+    
+    // Fix SearchVC
 }
 
