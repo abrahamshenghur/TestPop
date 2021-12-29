@@ -23,5 +23,6 @@ class SearchVC: UIViewController {
     // Make bottom of webview thumbnails have a shadow effect
     
     // Fix SearchVC
+    // Second Fix
 }
 
