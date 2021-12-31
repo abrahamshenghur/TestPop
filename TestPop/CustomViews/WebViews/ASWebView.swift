@@ -39,4 +39,6 @@ class ASWebView: WKWebView, UIGestureRecognizerDelegate {
     }
 //    // Addding lines
     // Addding lines
+    
+    // Master 1
 }
